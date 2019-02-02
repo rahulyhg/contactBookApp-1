@@ -22,6 +22,11 @@ PUT contact - localhost:8000/api/contact/{id}
 DELETE contact - localhost:8000/api/contact/{id}
 
 
+Request body for APIs-
+
+{"name":"name","email":"email","phone":"phone"}
+
+
 How to run - 
 
 java -jar  target/contactbook-2.0.0.RELEASE.jar
