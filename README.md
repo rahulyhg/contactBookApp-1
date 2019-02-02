@@ -2,7 +2,7 @@
 Contact Book App CRUD repo using Spring Boot
 
 Technologies - 
-Spring boot
+Spring boot,
 In memory database - H2
 
 How to run - 
