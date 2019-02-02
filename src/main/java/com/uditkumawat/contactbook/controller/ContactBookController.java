@@ -34,7 +34,7 @@ public class ContactBookController {
 	 * 
 	 * @return List<Contact>
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET, produces = "application/json", consumes = "application/json")
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public List<Contact> getAllContacts() {
 
 		logger.info("getAllContact() called");
@@ -48,7 +48,7 @@ public class ContactBookController {
 	 * @param contact
 	 * @return
 	 */
-	@RequestMapping(value = "/contact", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value = "/contact", method = RequestMethod.POST, consumes = "application/json")
 	public List<Contact> addContact(@RequestBody Contact contact) {
 
 		logger.info("addContact() method called");
@@ -70,7 +70,7 @@ public class ContactBookController {
 	 * @param contact
 	 * @return
 	 */
-	@RequestMapping(value = "/contact/{id}", method = RequestMethod.PUT, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value = "/contact/{id}", method = RequestMethod.PUT, consumes = "application/json")
 	public List<Contact> updateContact(@PathVariable String id, @RequestBody Contact contact) {
 		logger.info("updateContact() method called");
 		logger.debug("updateContact() , id -> {} , Contact ->{}", id, contact);
@@ -91,7 +91,7 @@ public class ContactBookController {
 	 * @return
 	 * @throws Exception
 	 */
-	@RequestMapping(value = "/contact/{id}", method = RequestMethod.DELETE, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value = "/contact/{id}", method = RequestMethod.DELETE, consumes = "application/json")
 	public List<Contact> deleteContact(@PathVariable String id) throws Exception {
 
 		logger.info("deleteContact() method called");
