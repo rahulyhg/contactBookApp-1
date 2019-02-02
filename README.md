@@ -7,4 +7,4 @@ In memory database - H2
 
 How to run - 
 
-java -jar  target/contactbook-2.0.0-RELEASE.jar
+java -jar  target/contactbook-2.0.0.RELEASE.jar
