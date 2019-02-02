@@ -1,0 +1,12 @@
+insert into contacts(name,email,phone) values('udit','udit@gmail.com','9876543210');
+insert into contacts(name,email,phone) values('udit Kumawat','uditkumawat@gmail.com','9876543211');
+insert into contacts(name,email,phone) values('udit','udit12345@gmail.com','9876543212');
+insert into contacts(name,email,phone) values('udit Kumawat','udit54321@gmail.com','9876543213');
+insert into contacts(name,email,phone) values('udit','udit12@gmail.com','9876543214');
+insert into contacts(name,email,phone) values('udit Kumawat','udit21@gmail.com','9876543215');
+insert into contacts(name,email,phone) values('udit2','udit12345678@gmail.com','9876543216');
+insert into contacts(name,email,phone) values('udit3 Kumawat','udit123kumawat@gmail.com','9876543217');
+insert into contacts(name,email,phone) values('udit4','udit123456@gmail.com','9876543218');
+insert into contacts(name,email,phone) values('udit5 Kumawat','udit654321@gmail.com','9876543219');
+insert into contacts(name,email,phone) values('udit6','udit1232@gmail.com','9876543232');
+insert into contacts(name,email,phone) values('udit7 Kumawat','udit2156@gmail.com','9876543223');
